@@ -1,6 +1,6 @@
 <!-- PROJECT INTRO -->
 <div align="center">
-  <a href="https://React-portfolio-website.netlify.app">
+  <a href="https://ReactPortfolioWebsite-ab120.netlify.app">
     <img src="./src/assets/images/Banner.jpg" alt="Logo" width="400" height="250"> 
   </a>
 
@@ -8,7 +8,7 @@
 
   <h3> This is a React portfolio website template idea </h3>
   <p>
-    <a href="https://React-portfolio-website.netlify.app"> View Demo </a>
+    <a href="https://ReactPortfolioWebsite-ab120.netlify.app"> View Demo </a>
     ·
     <a href="https://github.com/AbdullahAB120/React-portfolio-website/issues/new?labels=bug&template=bug-report---.md"> Report Bug </a>
     ·
