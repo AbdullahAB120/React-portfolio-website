@@ -1,0 +1,66 @@
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: linear-gradient(to top, #00003166, #000031);
+	backdrop-filter: blur(8px);
+	padding: 30px;
+}
+.mobile-navbar {
+	background: #5e6ae3ee;
+	padding: 20px;
+}
+
+
+nav a {
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+
+.mobile-navbar .icon {
+	position: absolute;
+	right: 20px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.mobile-navbar ul {
+	max-height: 0;
+	text-align: center;
+	transition: all 0.6s;
+	overflow: hidden;
+}
+.mobile-navbar ul.active {
+	max-height: 500px;
+	padding-top: 30px;
+}
+
+nav ul li {
+	list-style: none;
+}
+.navbar ul li {
+	display: inline-block;
+	padding: 0 15px;
+}
+.mobile-navbar ul li {
+	padding: 15px 0;
+}
+
+nav ul li a {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #bdcfff;
+}
