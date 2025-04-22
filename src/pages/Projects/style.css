@@ -1,0 +1,82 @@
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+
+.projects h2 {
+	flex: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+
+.project-item {
+	flex: 30%;
+	max-width: 350px;
+	background: linear-gradient(45deg, #1b86d844, #1b86d822);
+	border-radius: 5px;
+	margin: 20px 10px;
+	padding: 10px 20px;
+}
+
+.project-item img {
+	height: auto;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.project-item h3 {
+	font-size: 22px;
+}
+
+.project-item p {
+	padding: 10px 0;
+	padding-bottom: 10px;
+}
+
+.project-item .lang {
+	padding: 10px 0;
+}
+
+.project-item span {
+	background: #005286;
+	border-radius: 20px;
+	margin-right: 10px;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+
+.project-item .button {
+	margin-top: 10px;
+}
+
+.project-item button {
+	background: #007dcd;
+	color: #ffffff;
+	border: 0;
+	border-radius: 10px;
+	margin: 10px 0;
+	margin-right: 20px;
+	padding: 8px 15px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.project-item button:hover {
+	background: linear-gradient(-45deg, #0066a8, #007dcd);
+}
+
+
+
+@media (max-width: 768px) {
+	.projects {
+		padding: 50px 30px;
+	}
+	
+	.project-item {
+		flex: 100%;
+	}
+}
